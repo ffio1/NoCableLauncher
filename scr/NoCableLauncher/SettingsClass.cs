@@ -1,4 +1,4 @@
-﻿using System.CodeDom.Compiler;
+using System.CodeDom.Compiler;
 using System.Configuration;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -34,7 +34,7 @@ namespace NoCableLauncher
                 }
                 set
                 {
-                    this["gamePath"] = value;
+                    this["gamePath"] = "steam://rungamid/221680";
                 }
             }
 
@@ -180,7 +180,7 @@ namespace NoCableLauncher
                 }
                 set
                 {
-                    this["isSteam"] = value;
+                    this["isSteam"] = true;
                 }
             }
 
