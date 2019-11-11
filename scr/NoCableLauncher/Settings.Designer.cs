@@ -1,4 +1,4 @@
-﻿using System.ComponentModel;
+using System.ComponentModel;
 using System.Windows.Forms;
 
 namespace NoCableLauncher
@@ -32,10 +32,6 @@ namespace NoCableLauncher
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Settings));
-            this.label1 = new System.Windows.Forms.Label();
-            this.pathTextBox = new System.Windows.Forms.TextBox();
-            this.steamCheckBox = new System.Windows.Forms.CheckBox();
-            this.browseButton = new System.Windows.Forms.Button();
             this.p1DeviceCombo = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.p1vidTextBox = new System.Windows.Forms.TextBox();
@@ -87,44 +83,6 @@ namespace NoCableLauncher
             this.spOnBoardGroupBox.SuspendLayout();
             this.singlePlayerGroupBox.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(44, 25);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(29, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Path";
-            // 
-            // pathTextBox
-            // 
-            this.pathTextBox.Location = new System.Drawing.Point(79, 22);
-            this.pathTextBox.Name = "pathTextBox";
-            this.pathTextBox.Size = new System.Drawing.Size(233, 20);
-            this.pathTextBox.TabIndex = 1;
-            this.pathTextBox.TextChanged += new System.EventHandler(this._SettingsChanged);
-            // 
-            // steamCheckBox
-            // 
-            this.steamCheckBox.AutoSize = true;
-            this.steamCheckBox.Location = new System.Drawing.Point(79, 48);
-            this.steamCheckBox.Name = "steamCheckBox";
-            this.steamCheckBox.Size = new System.Drawing.Size(87, 17);
-            this.steamCheckBox.TabIndex = 3;
-            this.steamCheckBox.Text = "Steam Game";
-            this.steamCheckBox.UseVisualStyleBackColor = true;
-            this.steamCheckBox.CheckedChanged += new System.EventHandler(this.steamCheckBox_CheckedChanged);
-            // 
-            // browseButton
-            // 
-            this.browseButton.Location = new System.Drawing.Point(318, 22);
-            this.browseButton.Name = "browseButton";
-            this.browseButton.Size = new System.Drawing.Size(26, 20);
-            this.browseButton.TabIndex = 2;
-            this.browseButton.Text = "...";
-            this.browseButton.UseVisualStyleBackColor = true;
-            this.browseButton.Click += new System.EventHandler(this.browseButton_Click);
             // 
             // p1DeviceCombo
             // 
@@ -279,14 +237,10 @@ namespace NoCableLauncher
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.manualOffsetsCheckbox);
-            this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Controls.Add(this.pathTextBox);
-            this.groupBox2.Controls.Add(this.browseButton);
             this.groupBox2.Controls.Add(this.multiplayerCheckBox);
             this.groupBox2.Controls.Add(this.offsetVidTextBox);
-            this.groupBox2.Controls.Add(this.steamCheckBox);
             this.groupBox2.Controls.Add(this.offsetPidTextBox);
             this.groupBox2.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.groupBox2.Location = new System.Drawing.Point(12, 5);
@@ -299,7 +253,7 @@ namespace NoCableLauncher
             // manualOffsetsCheckbox
             // 
             this.manualOffsetsCheckbox.AutoSize = true;
-            this.manualOffsetsCheckbox.Location = new System.Drawing.Point(79, 71);
+            this.manualOffsetsCheckbox.Location = new System.Drawing.Point(79, 62);
             this.manualOffsetsCheckbox.Name = "manualOffsetsCheckbox";
             this.manualOffsetsCheckbox.Size = new System.Drawing.Size(97, 17);
             this.manualOffsetsCheckbox.TabIndex = 8;
@@ -319,7 +273,7 @@ namespace NoCableLauncher
             // multiplayerCheckBox
             // 
             this.multiplayerCheckBox.AutoSize = true;
-            this.multiplayerCheckBox.Location = new System.Drawing.Point(195, 48);
+            this.multiplayerCheckBox.Location = new System.Drawing.Point(79, 28);
             this.multiplayerCheckBox.Name = "multiplayerCheckBox";
             this.multiplayerCheckBox.Size = new System.Drawing.Size(112, 17);
             this.multiplayerCheckBox.TabIndex = 4;
@@ -638,11 +592,6 @@ namespace NoCableLauncher
         }
 
         #endregion
-
-        private Label label1;
-        private TextBox pathTextBox;
-        private CheckBox steamCheckBox;
-        private Button browseButton;
         private ComboBox p1DeviceCombo;
         private Label label2;
         private TextBox p1vidTextBox;
