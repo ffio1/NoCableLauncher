@@ -48,7 +48,7 @@ This allows you to use your microphone or any other device outside the game (ass
 
 ### Setting Tips
 
-![Settings Window](https://techcoders.net/images/content/ncl_screenshot.png)
+![Settings Window](https://media.discordapp.net/attachments/415524785557209102/643250514435375114/unknown.png)
 
 * If you have Steam-licensed Rocksmith 2014, check the "Steam game" box, otherwise leave this checkbox and browse game EXE-file by pressing "..." button.
 * "Device" сombobox contains all **active** found input audio devices in your system. Select the device connected to your guitar. If your device is not in the list, check the "Manual" box and set VID & PID values manually (find it in "Device manager"). VID & PID sets as "0000" means default non-USB input audio device, for example integrated Realtek microphone input.
