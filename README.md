@@ -18,7 +18,7 @@ This is an improved version based on the work originally done by [Maxx54](https:
 
 ### Downloads
 
-[NoCableLauncher Version 2.0](https://github.com/Mywk/NoCableLauncher/releases/download/2.0/NoCableLauncher.zip)
+[NoCableLauncher Version 2.1](https://github.com/ffio1/NoCableLauncher/releases/download/2.1/NoCableLauncher-Version2.1.zip)
 
 ### Getting Started
 
